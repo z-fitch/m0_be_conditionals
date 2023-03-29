@@ -16,3 +16,15 @@ end
 #- If the driving record is good and user is over 25 years old, they should get a discount on the car rental
 #- If the user either has a good record or is over 25 years old, they should pay full price
 #- If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
+
+
+#Write a Ruby program that defines a variable that stores an Integer. The program should print out the String "even" 
+#if the Integer is even, and the String "odd" if the Integer is odd.
+
+num = 16
+
+if num.even? == true
+    puts "Even"
+else
+    puts "Odd"
+end
